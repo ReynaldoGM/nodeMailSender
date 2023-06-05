@@ -1,0 +1,18 @@
+info: info {"subject":"Candidate","text":"Hi im intestered on the job"}
+info: info {"subject":"Candidate","text":"Hi im intestered on the job"}
+error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials t1-20020a056870180100b0017b21991355sm2425755oaf.20 - gsmtp {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials t1-20020a056870180100b0017b21991355sm2425755oaf.20 - gsmtp","responseCode":535}
+info: info {"subject":"Candidate","text":"Hi im intestered on the job"}
+info: 250 2.0.0 OK  1685983521 x9-20020a4ac589000000b0054fa7ac8dabsm3322321oop.24 - gsmtp
+info: info {"text":"ggg"}
+info: 250 2.0.0 OK  1685984594 w2-20020a9d6382000000b006a5db4474c8sm3489723otk.33 - gsmtp
+info: info {"text":"ggg"}
+info: 250 2.0.0 OK  1685984994 z4-20020a056870384400b0019fadc057d0sm3752048oal.25 - gsmtp
+info: info {"text":"ggg"}
+info: 250 2.0.0 OK  1685985057 eb40-20020a056870a8a800b0019280078be5sm3802838oab.6 - gsmtp
+info: info {"text":"ggg"}
+info: 250 2.0.0 OK  1685985464 t1-20020a056871054100b0019e4fe93d72sm3779790oal.42 - gsmtp
+info: info {"text":"ggg"}
+info: 250 2.0.0 OK  1685985705 v5-20020a9d5a05000000b006af913c1044sm3525166oth.16 - gsmtp
+info: info {"text":"ggg"}
+info: 250 2.0.0 OK  1685985852 g2-20020a056870c38200b001968dd2e1fesm3854358oao.3 - gsmtp
