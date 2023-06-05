@@ -16,3 +16,21 @@ info: info {"text":"ggg"}
 info: 250 2.0.0 OK  1685985705 v5-20020a9d5a05000000b006af913c1044sm3525166oth.16 - gsmtp
 info: info {"text":"ggg"}
 info: 250 2.0.0 OK  1685985852 g2-20020a056870c38200b001968dd2e1fesm3854358oao.3 - gsmtp
+info: info {"subject":"Candidate","text":"Hi im intestered on the job"}
+error: Missing credentials for "PLAIN" {"code":"EAUTH","command":"API"}
+info: info {"subject":"Candidate","text":"Hi im intestered on the job"}
+error: Missing credentials for "PLAIN" {"code":"EAUTH","command":"API"}
+info: info {"subject":"Candidate","text":"Hi im intestered on the job"}
+error: Missing credentials for "PLAIN" {"code":"EAUTH","command":"API"}
+info: info {"subject":"Candidate","text":"Hi im intestered on the job"}
+error: Missing credentials for "PLAIN" {"code":"EAUTH","command":"API"}
+info: info {"subject":"Candidate","text":"Hi im intestered on the job"}
+error: Missing credentials for "PLAIN" {"code":"EAUTH","command":"API"}
+info: info {"subject":"Candidate","text":"Hi im intestered on the job"}
+error: Missing credentials for "PLAIN" {"code":"EAUTH","command":"API"}
+info: info {"subject":"Candidate","text":"Hi im intestered on the job"}
+error: Missing credentials for "PLAIN" {"code":"EAUTH","command":"API"}
+info: info {"subject":"Candidate","text":"Hi im intestered on the job"}
+error: Missing credentials for "PLAIN" {"code":"EAUTH","command":"API"}
+info: info {"subject":"Candidate","text":"Hi im intestered on the job"}
+error: Missing credentials for "PLAIN" {"code":"EAUTH","command":"API"}

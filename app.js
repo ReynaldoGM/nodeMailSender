@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const bodyParser = require("body-parser");
 const _ = require("lodash");
@@ -5,9 +6,9 @@ const nodemailer = require('nodemailer');
 const winston = require('winston');
 const app = express();
 const port = 3000
-//onlinetransportweb@gmail.com
-//OnTransport#909 pass gmail
-//nodemailer qroxqbutlmbwicpw
+
+
+
 app.use(bodyParser.urlencoded({
   extended: false
 }));
@@ -35,14 +36,14 @@ const logger = winston.createLogger({
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'onlinetransportweb@gmail.com',
-    pass: 'qroxqbutlmbwicpw'
+    user: process.env.ONLINE_TRANSPORT_MAIL,
+    pass: process.env.MAIL_PASS
   }
 });
 
 let mailOptions = {
-  from: 'onlinetransportweb@gmail.com',
-  to: 'reynaldogm95@gmail.com',
+  from: process.env.ONLINE_TRANSPORT_MAIL,
+  to: process.env.TO_MAIL,
   subject: 'Email Subject',
   text: 'Hello, this is the body of the email 2.'
 };
@@ -63,6 +64,7 @@ app.get('/', (req, res) => {
 app.post('/sendEmail', (req, res) => {
   mailOptions.subject = req.body.subject;
   mailOptions.text = req.body.text;
+  console.log(process.env.ONLINE_TRANSPORT_MAIL);
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
       logger.error(error);
