@@ -57,7 +57,7 @@ var users = [{
   name: 'jane'
 }];
 app.get('/', (req, res) => {
-  res.sendFile("Hello");
+  res.send("Hello");
 })
 
 
