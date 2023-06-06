@@ -34,3 +34,7 @@ info: info {"subject":"Candidate","text":"Hi im intestered on the job"}
 error: Missing credentials for "PLAIN" {"code":"EAUTH","command":"API"}
 info: info {"subject":"Candidate","text":"Hi im intestered on the job"}
 error: Missing credentials for "PLAIN" {"code":"EAUTH","command":"API"}
+info: info {"text":"ggg"}
+error: Missing credentials for "PLAIN" {"code":"EAUTH","command":"API"}
+info: info {"text":"ggg"}
+error: Missing credentials for "PLAIN" {"code":"EAUTH","command":"API"}
