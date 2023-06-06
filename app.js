@@ -34,6 +34,10 @@ const logger = winston.createLogger({
 });
 
 
+const jsonResponse = `{
+  "response":"OK"
+}`;
+
 
 const transporter = nodemailer.createTransport({
   service: 'gmail',
@@ -90,7 +94,7 @@ app.post('/sendEmail', (req, res) => {
   });
   logger.info('info', req.body);
   console.log(req.body);
-  res.send('thanks!');
+  res.send(JSON.parse(jsonResponse));
 })
 
 app.listen(port, () => {
