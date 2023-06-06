@@ -6,18 +6,22 @@ const nodemailer = require('nodemailer');
 const winston = require('winston');
 const app = express();
 const port = 3000
-
+const cors = require('cors');
 
 
 app.use(bodyParser.urlencoded({
   extended: false
 }));
 
-app.use((req, res, next) => {
-  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:4200');
-  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
-  next();
-});
+app.use(cors({
+    origin: ['http://localhost:4200', 'https://static-web-transport.onrender.com/']
+}));
+
+// app.use((req, res, next) => {
+//   res.setHeader('Access-Control-Allow-Origin', 'http://localhost:4200');
+//   res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+//   next();
+// });
 
 app.use(bodyParser.json());
 const logger = winston.createLogger({
