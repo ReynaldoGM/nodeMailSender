@@ -48,6 +48,18 @@ let mailOptions = {
   text: 'Hello, this is the body of the email 2.'
 };
 
+function task() {
+  // Lógica de la tarea que deseas ejecutar cada 14 minutos
+  console.log('Realizando tarea cada 14 minutos');
+}
+
+// Ejecuta la tarea inicialmente
+task();
+
+// Programa la ejecución de la tarea cada 14 minutos (14 * 60,000 milisegundos)
+setInterval(task, 14 * 60 * 1000);
+
+
 
 var users = [{
   name: 'tobi'
